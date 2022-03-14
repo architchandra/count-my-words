@@ -1,13 +1,12 @@
 import { StrictMode } from 'react';
 import ReactDOM from 'react-dom';
+import App from './components/App';
 
 
 
 ReactDOM.render(
   <StrictMode>
-    <div>
-      Coming Soon.
-    </div>
+    <App />
   </StrictMode>,
   document.getElementById('root')
 );
