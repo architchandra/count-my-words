@@ -5,7 +5,7 @@ function App() {
         Word Limit
       </h1>
       <h3>
-        A word and character counter build using React and Tailwind.
+        A word and character counter built using React and Tailwind.
       </h3>
     </>
   );
