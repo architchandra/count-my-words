@@ -1,3 +1,7 @@
+import TextInput from './TextInput';
+
+
+
 function App() {
   return (
     <>
@@ -7,6 +11,7 @@ function App() {
       <h3>
         A word and character counter built using React and Tailwind.
       </h3>
+      <TextInput />
     </>
   );
 }
