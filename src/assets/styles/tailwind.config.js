@@ -12,6 +12,7 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       grey: colors.zinc[100],
+      'dark-grey': colors.stone[300],
     },
     container: {
       center: true,
