@@ -1,4 +1,4 @@
-function TextInput() {
+function TextBox() {
   return (
     <textarea className="w-full" rows="12"></textarea>
   );
@@ -6,4 +6,4 @@ function TextInput() {
 
 
 
-export default TextInput;
+export default TextBox;
