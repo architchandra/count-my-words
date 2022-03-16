@@ -1,7 +1,11 @@
 function Results({ text }) {
+  function getCharCount(text) {
+    return text.length;
+  }
+  
   return (
     <div>
-      {text.length}
+      {getCharCount(text)} characters
     </div>
   );
 }
