@@ -1,8 +1,16 @@
+import { useState } from 'react';
 import TextBox from './TextBox';
+import Results from './Results';
 
 
 
 function App() {
+  const [text, setText] = useState('');
+
+  function handleOnChange(e) {
+    setText(e.target.value);
+  }
+
   return (
     <main className="my-20">
       <div className="container text-center">
@@ -14,7 +22,8 @@ function App() {
             A word and character counter built using React and Tailwind.
           </h3>
         </div>
-        <TextBox />
+        <TextBox text={text} handleOnChange={handleOnChange} />
+        <Results text={text} />
       </div>
     </main>
   );
