@@ -1,6 +1,6 @@
 function TextInput() {
   return (
-    <textarea></textarea>
+    <textarea className="w-full" rows="12"></textarea>
   );
 }
 
