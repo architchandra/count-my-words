@@ -411,9 +411,17 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.title-h1 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+}
 .my-12 {
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 .bg-grey {
   --tw-bg-opacity: 1;
