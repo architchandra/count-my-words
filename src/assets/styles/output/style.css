@@ -469,9 +469,6 @@ html {
 .p-4 {
   padding: 1rem;
 }
-.p-2 {
-  padding: 0.5rem;
-}
 .pr-4 {
   padding-right: 1rem;
 }
@@ -508,10 +505,6 @@ html {
   .container {
     max-width: 768px;
   }
-}
-.placeholder\:text-dark-grey::placeholder {
-  --tw-text-opacity: 1;
-  color: rgb(214 211 209 / var(--tw-text-opacity));
 }
 .placeholder\:text-darker-grey::placeholder {
   --tw-text-opacity: 1;
