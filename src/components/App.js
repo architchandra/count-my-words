@@ -15,7 +15,7 @@ function App() {
     <main className="my-12 sm:my-20">
       <div className="container text-center">
         <div className="mb-12">
-          <h1 className="title-h1">
+          <h1 className="title-h1 text-brown">
             Word Limit
           </h1>
           <h3>

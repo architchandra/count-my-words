@@ -11,8 +11,11 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      grey: colors.zinc[100],
+      black: colors.stone[700],
+      'light-grey': colors.stone[50],
+      grey: colors.stone[200],
       'dark-grey': colors.stone[300],
+      brown: colors.amber[600],
     },
     container: {
       center: true,
