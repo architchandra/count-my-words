@@ -22,8 +22,8 @@ function App() {
             A word and character counter built using React and Tailwind.
           </h3>
         </div>
-        <TextBox text={text} handleOnChange={handleOnChange} />
         <Results text={text} />
+        <TextBox text={text} handleOnChange={handleOnChange} />
       </div>
     </main>
   );
