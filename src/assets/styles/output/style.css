@@ -509,6 +509,14 @@ html {
     max-width: 768px;
   }
 }
+.placeholder\:text-dark-grey::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(214 211 209 / var(--tw-text-opacity));
+}
+.placeholder\:text-darker-grey::placeholder {
+  --tw-text-opacity: 1;
+  color: rgb(168 162 158 / var(--tw-text-opacity));
+}
 .last\:mr-0:last-child {
   margin-right: 0px;
 }

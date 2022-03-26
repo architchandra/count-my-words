@@ -15,6 +15,7 @@ module.exports = {
       'light-grey': colors.stone[50],
       grey: colors.stone[200],
       'dark-grey': colors.stone[300],
+      'darker-grey': colors.stone[400],
       brown: colors.amber[600],
     },
     container: {
