@@ -7,11 +7,11 @@ function Results({ text }) {
   }
 
   const resultsList = [{
-    label: 'characters',
-    count: getCharCount(text),
-  },{
     label: 'words',
     count: getWordCount(text),
+  },{
+    label: 'characters',
+    count: getCharCount(text),
   }];
   
   return (
