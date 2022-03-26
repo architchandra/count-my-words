@@ -19,7 +19,7 @@ function App() {
             Word Limit
           </h1>
           <h3>
-            A word and character counter built using React and Tailwind.
+            A simple word and character counter. Free to use.
           </h3>
         </div>
         <Results text={text} />
