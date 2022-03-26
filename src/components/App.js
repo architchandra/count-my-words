@@ -12,7 +12,7 @@ function App() {
   }
 
   return (
-    <main className="my-20">
+    <main className="my-12 sm:my-20">
       <div className="container text-center">
         <div className="mb-12">
           <h1 className="title-h1">
