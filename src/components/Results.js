@@ -29,7 +29,7 @@ function Results({ text }) {
   },{
     label: 'sentences',
     count: getSentenceCount(text),
-  },,{
+  },{
     label: 'paragraphs',
     count: getParagraphCount(text),
   }];
