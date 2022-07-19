@@ -5,20 +5,6 @@ function Results({ text }) {
   function getWordCount(text) {
     return text.split(/\W/).filter(word => !!word).length;
   }
-  function getSentenceCount(text) {
-    if(!text) {
-      return 0;
-    }
-
-    return text.split(/\./g).length;
-  }
-  function getParagraphCount(text) {
-    if(!text) {
-      return 0;
-    }
-
-    return text.split(/[\r\n]/g).length;
-  }
 
   const resultsList = [{
     label: 'words',
@@ -26,12 +12,6 @@ function Results({ text }) {
   },{
     label: 'characters',
     count: getCharCount(text),
-  },{
-    label: 'sentences',
-    count: getSentenceCount(text),
-  },{
-    label: 'paragraphs',
-    count: getParagraphCount(text),
   }];
   
   return (
