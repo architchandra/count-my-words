@@ -4,7 +4,7 @@ Release notes for the Word Limit app.
 
 
 
-## Unreleased
+## 0.2.0 - 2022-07-29
 
 ### Added
 - Added the ability to count sentences and paragraphs.
