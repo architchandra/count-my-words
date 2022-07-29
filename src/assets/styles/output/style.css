@@ -427,6 +427,9 @@ html {
 .mb-12 {
   margin-bottom: 3rem;
 }
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -486,9 +489,9 @@ html {
 .uppercase {
   text-transform: uppercase;
 }
-.text-brown {
+.text-orange {
   --tw-text-opacity: 1;
-  color: rgb(217 119 6 / var(--tw-text-opacity));
+  color: rgb(245 158 11 / var(--tw-text-opacity));
 }
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
