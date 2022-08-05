@@ -6,6 +6,9 @@ Release notes for the Count My Words app.
 
 ## Unreleased
 
+### Added
+- Added SEO title and description.
+
 ### Changed
 - Changed the name of the app to *Count My Words*.
 
