@@ -12,6 +12,9 @@ Release notes for the Count My Words app.
 ### Changed
 - Changed the name of the app to *Count My Words*.
 
+### Fixed
+- Fixed layout of counters area on small screens.
+
 
 
 ## 0.2.0 - 2022-07-29
