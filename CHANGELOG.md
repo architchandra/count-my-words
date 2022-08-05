@@ -1,6 +1,13 @@
 # Changelog
 
-Release notes for the Word Limit app.
+Release notes for the Count My Words app.
+
+
+
+## Unreleased
+
+### Changed
+- Changed the name of the app to *Count My Words*.
 
 
 
