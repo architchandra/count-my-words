@@ -433,29 +433,38 @@ html {
 .mb-6 {
   margin-bottom: 1.5rem;
 }
-.mr-4 {
-  margin-right: 1rem;
-}
 .mb-8 {
   margin-bottom: 2rem;
 }
 .block {
   display: block;
 }
-.flex {
-  display: flex;
+.grid {
+  display: grid;
 }
 .w-full {
   width: 100%;
+}
+.flex-1 {
+  flex: 1 1 0%;
+}
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.grid-rows-2 {
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.gap-3 {
+  gap: 0.75rem;
 }
 .rounded-md {
   border-radius: 0.375rem;
 }
 .border {
   border-width: 1px;
-}
-.border-r {
-  border-right-width: 1px;
 }
 .border-dark-grey {
   --tw-border-opacity: 1;
@@ -472,8 +481,13 @@ html {
 .p-4 {
   padding: 1rem;
 }
-.pr-4 {
-  padding-right: 1rem;
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 .text-center {
   text-align: center;
@@ -513,19 +527,14 @@ html {
   --tw-text-opacity: 1;
   color: rgb(168 162 158 / var(--tw-text-opacity));
 }
-.last\:mr-0:last-child {
-  margin-right: 0px;
-}
-.last\:border-none:last-child {
-  border-style: none;
-}
-.last\:pr-0:last-child {
-  padding-right: 0px;
-}
 @media (min-width: 640px) {
 
   .sm\:my-20 {
     margin-top: 5rem;
     margin-bottom: 5rem;
+  }
+
+  .sm\:flex {
+    display: flex;
   }
 }
