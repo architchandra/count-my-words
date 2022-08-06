@@ -4,6 +4,11 @@ Release notes for the Count My Words app.
 
 
 
+## Unreleased
+- Improve README text.
+
+
+
 ## 1.0.1 - 2022-08-06
 
 ### Changed
