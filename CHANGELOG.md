@@ -8,6 +8,7 @@ Release notes for the Count My Words app.
 
 ### Added
 - Added SEO title and description.
+- Added favicon.
 
 ### Changed
 - Changed the name of the app to *Count My Words*.
