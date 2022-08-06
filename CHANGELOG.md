@@ -4,13 +4,15 @@ Release notes for the Count My Words app.
 
 
 
-## Unreleased
+## 1.0.0 - 2022-08-06
 
 ### Added
 - Added SEO title and description.
+- Added favicon.
 
 ### Changed
 - Changed the name of the app to *Count My Words*.
+- Improved logic to count sentences and paragraphs.
 
 ### Fixed
 - Fixed layout of counters area on small screens.
