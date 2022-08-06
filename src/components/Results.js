@@ -10,14 +10,14 @@ function Results({ text }) {
       return 0;
     }
 
-    return text.split(/\./g).filter(phrase => phrase).length;
+    return text.split(/\.|\r\n|\r|\n/gm).filter(phrase => phrase).length;
   }
   function getParagraphCount(text) {
     if(!text) {
       return 0;
     }
 
-    return text.split(/[\r\n]/g).filter(para => para).length;
+    return text.split(/\r\n|\r|\n/gm).filter(para => para).length;
   }
 
   const resultsList = [{
