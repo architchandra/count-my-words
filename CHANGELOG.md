@@ -4,6 +4,16 @@ Release notes for the Count My Words app.
 
 
 
+## Unreleased
+
+### Changed
+- Improved SEO description.
+
+### Fixed
+- Removed incorrect old SEO description.
+
+
+ 
 ## 1.0.0 - 2022-08-06
 
 ### Added
