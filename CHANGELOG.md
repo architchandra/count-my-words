@@ -4,7 +4,7 @@ Release notes for the Count My Words app.
 
 
 
-## Unreleased
+## 1.1.0 - 2022-08-09
 
 ### Added
 - Installed Google Analytics.
