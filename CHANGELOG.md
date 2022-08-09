@@ -5,7 +5,12 @@ Release notes for the Count My Words app.
 
 
 ## Unreleased
-- Improve README text.
+
+### Added
+- Installed Google Analytics.
+
+### Changed
+- Improved README text.
 
 
 
