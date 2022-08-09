@@ -8,6 +8,7 @@ Release notes for the Count My Words app.
 
 ### Added
 - Installed Google Analytics.
+- Added canonical URL (to prevent duplicate content issues between main domain and Netlify subdomain).
 
 ### Changed
 - Improved README text.
