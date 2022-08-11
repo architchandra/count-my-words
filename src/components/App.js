@@ -10,7 +10,7 @@ function App() {
   const comparePathRegex = /^\/compare\/?$/i
 
   return (
-    <main className="my-12 sm:my-20 text-center">
+    <main className="my-12 sm:my-16 text-center">
       <Header />
       <div className={(comparePathRegex.test(location) ? 'container-wide' : 'container')}>
         <Switch>
