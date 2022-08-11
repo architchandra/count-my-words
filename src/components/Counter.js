@@ -4,7 +4,7 @@ import Results from './Results';
 
 
 
-function HomePage() {
+function Counter() {
   const [text, setText] = useState('');
 
   function handleOnChange(e) {
@@ -12,13 +12,13 @@ function HomePage() {
   }
   
   return (
-    <>
+    <div>
       <Results text={text} />
       <TextBox text={text} handleOnChange={handleOnChange} />
-    </>
+    </div>
   );
 }
 
 
 
-export default HomePage;
+export default Counter;
