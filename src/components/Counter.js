@@ -4,7 +4,7 @@ import Results from './Results';
 
 
 
-function Counter({ classExtra }) {
+function Counter(props) {
   const [text, setText] = useState('');
 
   function handleOnChange(e) {
@@ -12,7 +12,7 @@ function Counter({ classExtra }) {
   }
   
   return (
-    <div className={classExtra}>
+    <div className={props.wrapperClass}>
       <Results text={text} />
       <TextBox text={text} handleOnChange={handleOnChange} />
     </div>

@@ -11,7 +11,7 @@ function App() {
 
   return (
     <main className="my-12 sm:my-16 text-center">
-      <Header classExtra="container mb-12" />
+      <Header wrapperClass="container mb-12" />
       <div className={(comparePathRegex.test(location) ? 'container-wide' : 'container')}>
         <Switch>
           <Route path="/compare" component={Compare} />
