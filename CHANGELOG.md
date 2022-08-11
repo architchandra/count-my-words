@@ -4,6 +4,14 @@ Release notes for the Count My Words app.
 
 
 
+## Unreleased
+
+### Added
+- Added logo to the app header and use it as a link to the home page.
+- Added the ability to compare multiple pieces of text side by side.
+
+
+
 ## 1.1.0 - 2022-08-09
 
 ### Added
