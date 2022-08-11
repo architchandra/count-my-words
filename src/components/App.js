@@ -10,9 +10,9 @@ function App() {
   const comparePathRegex = /^\/compare\/?$/i
 
   return (
-    <main className="my-12 sm:my-20">
-      <div className={(comparePathRegex.test(location) ? 'container-wide' : 'container') + ' text-center'}>
-        <Header />
+    <main className="my-12 sm:my-20 text-center">
+      <Header />
+      <div className={(comparePathRegex.test(location) ? 'container-wide' : 'container')}>
         <Switch>
           <Route path="/compare" component={ComparePage} />
           <Route path="/" component={HomePage} />

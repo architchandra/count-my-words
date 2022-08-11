@@ -4,7 +4,7 @@ import { Route, Link } from 'wouter';
 
 function Header() {
   return (
-    <div className="mb-12">
+    <div className="container mb-12">
       <h1 className="mb-1 title-h1 text-orange">
         Count My Words
       </h1>
