@@ -3,9 +3,9 @@ import Logo from '../assets/images/logo.svg';
 
 
 
-function Header() {
+function Header({ classExtra }) {
   return (
-    <div className="container mb-12">
+    <div className={classExtra}>
       <Link className="flex justify-center items-end mb-2" href="/">
         <img className="w-12 h-12 mr-2" src={Logo} alt="Count My Words logo" />
         <h1 className="title-h1 text-orange">
