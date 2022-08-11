@@ -1,4 +1,4 @@
-import { Route, Switch } from 'wouter';
+import { Route, Switch, useLocation } from 'wouter';
 import Header from './Header';
 import HomePage from './HomePage';
 import ComparePage from './ComparePage';
@@ -6,9 +6,12 @@ import ComparePage from './ComparePage';
 
 
 function App() {
+  const [location, setLocation] = useLocation();
+  const comparePathRegex = /^\/compare\/?$/i
+
   return (
     <main className="my-12 sm:my-20">
-      <div className="container text-center">
+      <div className={(comparePathRegex.test(location) ? 'container-wide' : 'container') + ' text-center'}>
         <Header />
         <Switch>
           <Route path="/compare" component={ComparePage} />

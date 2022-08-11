@@ -439,14 +439,14 @@ html {
 .mb-1 {
   margin-bottom: 0.25rem;
 }
+.mb-4 {
+  margin-bottom: 1rem;
+}
 .mb-6 {
   margin-bottom: 1.5rem;
 }
 .mb-8 {
   margin-bottom: 2rem;
-}
-.mb-4 {
-  margin-bottom: 1rem;
 }
 .block {
   display: block;
@@ -521,6 +521,18 @@ html {
 }
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+.container-wide {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+}
+@media (min-width: 768px) {
+
+  .container-wide {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 }
 .container {
   width: 100%;
