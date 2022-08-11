@@ -4,7 +4,7 @@ import Results from './Results';
 
 
 
-function Counter() {
+function Counter({ classExtra }) {
   const [text, setText] = useState('');
 
   function handleOnChange(e) {
@@ -12,7 +12,7 @@ function Counter() {
   }
   
   return (
-    <div>
+    <div className={classExtra}>
       <Results text={text} />
       <TextBox text={text} handleOnChange={handleOnChange} />
     </div>
