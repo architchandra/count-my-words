@@ -420,6 +420,15 @@ html {
   line-height: 2.25rem;
   font-weight: 700;
 }
+.title-h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+.title-h3 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
 .my-12 {
   margin-top: 3rem;
   margin-bottom: 3rem;

@@ -1,23 +1,20 @@
 import { useState } from 'react';
+import { Route, Switch } from 'wouter';
 import Header from './Header';
-import TextBox from './TextBox';
-import Results from './Results';
+import HomePage from './HomePage';
+import ComparePage from './ComparePage';
 
 
 
 function App() {
-  const [text, setText] = useState('');
-
-  function handleOnChange(e) {
-    setText(e.target.value);
-  }
-
   return (
     <main className="my-12 sm:my-20">
       <div className="container text-center">
         <Header />
-        <Results text={text} />
-        <TextBox text={text} handleOnChange={handleOnChange} />
+        <Switch>
+          <Route path="/compare" component={ComparePage} />
+          <Route path="/" component={HomePage} />
+        </Switch>
       </div>
     </main>
   );

@@ -1,3 +1,7 @@
+import { Link } from 'wouter';
+
+
+
 function Header() {
   return (
     <div className="mb-12">
@@ -7,6 +11,7 @@ function Header() {
       <h3>
         A simple word and character counter. Free to use.
       </h3>
+      <Link href="/compare">Compare multiple texts</Link>
     </div>
   );
 }
