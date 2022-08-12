@@ -19,9 +19,7 @@ function App() {
           <Route path="/" component={Counter} />
         </Switch>
       </div>
-      <nav className="">
-        <Navigation />
-      </nav>
+      <Navigation />
     </main>
   );
 }
