@@ -15,16 +15,6 @@ function Header(props) {
       <h3 className="title-h3 mb-4">
         A simple word and character counter. Free to use.
       </h3>
-      <Route path="/">
-        <Link href="/compare">
-          Compare multiple texts
-        </Link>
-      </Route>
-      <Route path="/compare">
-        <Link href="/">
-          Take me back
-        </Link>
-      </Route>
     </div>
   );
 }
