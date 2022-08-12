@@ -415,6 +415,16 @@ html {
   --tw-text-opacity: 1;
   color: rgb(68 64 60 / var(--tw-text-opacity));
 }
+/* Base */
+html {
+  font-size: 16px;
+}
+@media (min-width: 1536px) {
+html {
+    font-size: 20px
+}
+  }
+/* Titles */
 .title-h1 {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -423,15 +433,23 @@ html {
 .title-h2 {
   font-size: 1.5rem;
   line-height: 2rem;
-  font-weight: 700;
 }
 .title-h3 {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   line-height: 1.75rem;
+  font-weight: 700;
+}
+/* Links */
+a {
+  text-decoration-line: underline;
+  text-underline-offset: 4px;
 }
 .my-12 {
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+.mb-8 {
+  margin-bottom: 2rem;
 }
 .mb-12 {
   margin-bottom: 3rem;
@@ -448,14 +466,8 @@ html {
 .mb-1 {
   margin-bottom: 0.25rem;
 }
-.mb-0 {
-  margin-bottom: 0px;
-}
 .mb-6 {
   margin-bottom: 1.5rem;
-}
-.mb-8 {
-  margin-bottom: 2rem;
 }
 .block {
   display: block;
@@ -523,6 +535,9 @@ html {
 .p-4 {
   padding: 1rem;
 }
+.p-3 {
+  padding: 0.75rem;
+}
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -533,6 +548,10 @@ html {
 }
 .text-center {
   text-align: center;
+}
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 .text-sm {
   font-size: 0.875rem;
@@ -549,17 +568,8 @@ html {
   --tw-text-opacity: 1;
   color: rgb(245 158 11 / var(--tw-text-opacity));
 }
-.underline {
-  text-decoration-line: underline;
-}
-.underline-offset-4 {
-  text-underline-offset: 4px;
-}
-.underline-offset-8 {
-  text-underline-offset: 8px;
-}
-.underline-offset-2 {
-  text-underline-offset: 2px;
+.no-underline {
+  text-decoration-line: none;
 }
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -612,5 +622,17 @@ html {
 
   .md\:grid {
     display: grid;
+  }
+}
+@media (min-width: 1024px) {
+
+  .lg\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .lg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }

@@ -1,3 +1,20 @@
+/* Base */
+html {
+  font-size: 16px;
+
+  @media screen(2xl) {
+    font-size: 20px;
+  }
+}
+
+
+
+/* Titles */
 .title-h1 { @apply text-3xl font-bold; }
-.title-h2 { @apply text-2xl font-bold; }
-.title-h3 { @apply text-lg }
+.title-h2 { @apply text-2xl; }
+.title-h3 { @apply text-xl font-bold; }
+
+
+
+/* Links */
+a { @apply underline underline-offset-4; }
