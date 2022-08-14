@@ -35,9 +35,9 @@ function Results({ text }) {
   }];
   
   return (
-    <div className="grid sm:flex grid-rows-2 grid-cols-3 flex-wrap gap-3 mb-6 px-2 py-3 rounded-md border border-dark-grey bg-light-grey">
+    <div className="grid sm:flex grid-rows-2 grid-cols-3 flex-wrap gap-3 mb-2 p-3 rounded-md border border-dark-grey bg-light-grey">
       {resultsList.map((result, index) => 
-        <p className="flex-1 text-sm" key={index}>
+        <p className="flex-1 text-sm 2xl:text-xs" key={index}>
           <span className="block text-3xl">
             {result.count}
           </span>

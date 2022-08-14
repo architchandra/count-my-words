@@ -20,9 +20,13 @@ module.exports = {
     },
     container: {
       center: true,
-      padding: '1.5rem',
+      padding: {
+        DEFAULT: '1.5rem',
+        '2xl': '3rem',
+      },
       screens: {
         sm: '768px',
+        '2xl': '1024px',
       },
     },
     extend: {},

@@ -1,7 +1,7 @@
 function TextBox({ text, handleOnChange }) {
   return (
     <textarea
-      className="w-full mb-8 p-4 rounded-md border border-dark-grey bg-light-grey placeholder:text-darker-grey"
+      className="w-full p-3 rounded-md border border-dark-grey bg-light-grey placeholder:text-darker-grey"
       rows="12"
       value={text}
       onChange={handleOnChange}

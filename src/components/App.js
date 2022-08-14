@@ -1,24 +1,25 @@
-import { useState } from 'react';
+import { Route, Switch, useLocation } from 'wouter';
 import Header from './Header';
-import TextBox from './TextBox';
-import Results from './Results';
+import HomePage from './pages/HomePage';
+import ComparePage from './pages/ComparePage';
+import Navigation from './Navigation';
 
 
 
 function App() {
-  const [text, setText] = useState('');
-
-  function handleOnChange(e) {
-    setText(e.target.value);
-  }
+  const [location, setLocation] = useLocation();
+  const isComparePage = /^\/compare\/?$/i.test(location);
 
   return (
-    <main className="my-12 sm:my-20">
-      <div className="container text-center">
-        <Header />
-        <Results text={text} />
-        <TextBox text={text} handleOnChange={handleOnChange} />
+    <main className="my-12 sm:my-16 text-center">
+      <Header wrapperClass="container mb-12" />
+      <div className={(isComparePage ? 'container-wide' : 'container') + ' mb-6'}>
+        <Switch>
+          <Route path="/compare" component={ComparePage} />
+          <Route path="/" component={HomePage} />
+        </Switch>
       </div>
+      <Navigation />
     </main>
   );
 }
