@@ -1,4 +1,4 @@
-import { Route, Link } from 'wouter';
+import { Link } from 'wouter';
 import Logo from '../assets/images/logo.svg';
 
 
