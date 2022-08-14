@@ -5,7 +5,7 @@ import Counter from '../Counter';
 
 function ComparePage() {
   const pageMeta = {
-    title: 'Compare - Count My Words',
+    title: 'Compare Multiple Texts - Count My Words',
     description: 'Compare word and character counts for multiple texts side by side.',
     canonicalUrl: 'https://countmywords.in/compare',
   };

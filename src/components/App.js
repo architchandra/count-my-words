@@ -1,4 +1,4 @@
-import { Route, Switch, useLocation } from 'wouter';
+import { Route, Switch } from 'wouter';
 import Header from './Header';
 import HomePage from './pages/HomePage';
 import ComparePage from './pages/ComparePage';
@@ -7,7 +7,7 @@ import Navigation from './Navigation';
 
 
 function App() {
-  const [location, setLocation] = useLocation();
+  const location = window.location.pathname;
   const isComparePage = /^\/compare\/?$/i.test(location);
 
   return (
