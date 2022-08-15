@@ -4,7 +4,7 @@ Release notes for the Count My Words app.
 
 
 
-## Unreleased
+## 2.1.0 - 2022-08-15
 
 ### Changed
 - Fire Google Analytics events manually to ensure correct data.
