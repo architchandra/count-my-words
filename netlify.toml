@@ -1,0 +1,5 @@
+# Allow routing to work when a path is directly accessed
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
