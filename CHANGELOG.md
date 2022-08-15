@@ -6,12 +6,24 @@ Release notes for the Count My Words app.
 
 ## Unreleased
 
+### Changed
+- Fire Google Analytics events manually to ensure correct data.
+
+
+
+## 2.0.0 - 2022-08-15
+
+Happy Independence Day, India! 🇮🇳
+
 ### Added
 - Added logo to the app header and use it as a link to the home page.
 - Added the ability to compare multiple pieces of text side by side.
 
 ### Changed
 - SEO information changes dynamically when switching to any page.
+
+### Fixed
+- Fixed an issue where non-home pages were not working when accessed directly.
 
 
 

@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import Counter from '../Counter';
+import firePageViewEvent from '../../helpers/firePageViewEvent';
 
 
 
@@ -11,9 +12,7 @@ function HomePage() {
   };
   
   useEffect(() => {
-    document.title = pageMeta.title;
-    document.querySelector('meta[name="description"]').setAttribute('content', pageMeta.description);
-    document.querySelector('link[rel="canonical"]').setAttribute('href', pageMeta.canonicalUrl);
+    firePageViewEvent(pageMeta);
   });
   
   return (

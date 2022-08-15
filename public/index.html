@@ -29,12 +29,16 @@
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-DSCC9SRYPK');
+      gtag('config', 'G-DSCC9SRYPK', {
+        'send_page_view': false,
+      });
     </script>
   </head>
   
   <body>
-    <noscript>The best things in life are free. The rest require Javascript.</noscript>
+    <noscript>
+      The best things in life are free. The rest require Javascript.
+    </noscript>
     <div id="root"></div>
   </body>
 </html>
