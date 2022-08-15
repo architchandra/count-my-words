@@ -4,6 +4,13 @@ Release notes for the Count My Words app.
 
 
 
+## Unreleased
+
+### Changed
+- Fire Google Analytics events manually to ensure correct data.
+
+
+
 ## 2.0.0 - 2022-08-15
 
 Happy Independence Day, India! 🇮🇳

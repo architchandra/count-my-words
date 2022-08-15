@@ -14,6 +14,13 @@ function ComparePage() {
     document.title = pageMeta.title;
     document.querySelector('meta[name="description"]').setAttribute('content', pageMeta.description);
     document.querySelector('link[rel="canonical"]').setAttribute('href', pageMeta.canonicalUrl);
+
+    if (typeof window.gtag !== 'undefined') {
+      window.gtag('event', 'page_view', {
+        page_title: pageMeta.title,
+        page_location: pageMeta.canonicalUrl,
+      });
+    }
   });
 
   return (
